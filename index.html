@@ -1,11 +1,184 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajout de la font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Ajout de la biblioteque de font : font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Ajout de CSS Personnalisé -->
+    <link rel="stylesheet" href="public/css/styles.css">
     <title>Page d'accueil | Mon petit graphisme</title>
 </head>
+
 <body>
-    
+    <header>
+        <a href="index.html">
+            <img src="public/images/logo_long.png" alt="Logo long de mon petit graphisme">
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Accueil
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banniere">
+            <img src="public/images/logo_long.png" alt="Logo long de mon petit graphisme">
+            <h1>
+                Agence de graphisme
+            </h1>
+        </section>
+
+
+        <section class="apropos">
+            <h2>
+                Mon petit graphisme est une agence de graphisme qui aide les entreprises à créer des visuels attractifs.
+            </h2>
+
+            <div class="services">
+                <div class="service">
+                    <img src="public/images/graphic-design.png" alt="Logo du service Graphisme">
+                    <h3>
+                        Graphisme
+                    </h3>
+                    <p>
+                        Que vous ayez besoin de graphisme pour un site web, des cartes de visite ou des affiches, nous
+                        réalisons des visuels dont vous serez fiers.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="public/images/strategie.png" alt="Logo du service Stratégie">
+                    <h3>
+                        Stratégie
+                    </h3>
+                    <p>
+                        Plutôt que de suggérer des graphismes à la mode, nous prenons le temps de comprendre vos
+                        objectifs et nous nous adaptons à vos besoins.
+                    </p>
+                </div>
+                <div class="service">
+                    <img src="public/images/illustrations.png" alt="Logo du service Illustrations">
+                    <h3>
+                        Illustrations
+                    </h3>
+                    <p>
+                        Nos graphistes vous proposerons des illustrations 100 % originales.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="temoignage">
+            <h2>
+                "Mon petit graphisme est une excellente agence de graphisme. Les graphistes sont a l'ecoute des besoins
+                et m'ont permis de renouveler complètement la carte de mon restaurant."
+            </h2>
+
+            <p>
+                Amandine, restauratrice
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Mon petit graphisme - Agence de graphisme basée à Paris
+        </p>
+
+        <p class="liens-reseaux-sociaux">
+            <a href="https://www.x.com" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </p>
+
+        <div class="liens-utils">
+            <div class="lien-util">
+                <p>Accès rapides</p>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Acceuil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lien-util">
+                <p>A propos</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Données personnelles
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Mentions légales
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cookies
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="lien-util coordonnees">
+                <p>Coordonnées</p>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            10 Quai de la Charente
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            75019 Paris
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            01 23 45 67 89
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

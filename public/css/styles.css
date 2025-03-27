@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+
+/* BODY */
+body {
+    width: 80%;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+header img {
+    width: 200px;
+    object-fit: cover;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    list-style-type: none;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #5b359d;
+    border-bottom: 2px solid #5b359d;
+}
+
+/* MAIN */
+/* main {} */
+
+.banniere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/backgroung_image.jpg');
+    background-size: cover;
+    height: 400px;
+    color: white;
+    gap: 20px;
+}
+
+.banniere img {
+    width: 150px;
+    object-fit: cover;
+}
+
+.apropos {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.apropos h2 {
+    text-align: center;
+    font-weight: normal;
+
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.service img {
+    width: 100px;
+}
+
+.service h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.temoignage {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.temoignage h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #5b359d;
+    /* text-align: center; */
+    color: white;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.liens-reseaux-sociaux a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+.liens-utils {
+    display: flex;
+    justify-content: space-around;
+}
+
+.liens-utils p {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.liens-utils li {
+    margin-left: 35px;
+}
+
+.liens-utils a {
+    text-decoration: none;
+    color: white;
+}
+
+.coordonnees li{
+    list-style-type: none;
+}
